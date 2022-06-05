@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <body style="position: fixed;">
+
+    <div style="text-align:center" style="width: 1080px; position: relative;"> 
+        <video id="video1" width="1280">
+          <source  src="ClydeCurmi_InteractiveAnimation.mp4" type="video/mp4">
+    
+          Your browser does not support HTML video.
+        </video>
+
+        <div onclick="playPause()" style="background-color: green; position: absolute; bottom: 0px; left: 30px; width: 90px; height: 70px; cursor: pointer;">
+          
+        </div>
+
+        <a href="https://www.mcast.edu.mt/" style="background-color: green; position: absolute; bottom: 0px; left: 150px; width: 90px; height: 70px; cursor: pointer;">
+          
+        <a>
+
+        <a href="https://www.facebook.com/MCASTmt/" style="background-color: green; position: absolute; bottom: 0px; left: 270px; width: 90px; height: 70px; cursor: pointer;">
+          
+        </a>
+
+        <a href="https://www.mcast.edu.mt/full-time-programmes/" style="background-color: green; position: absolute; bottom: 0px; left: 395px; width: 90px; height: 70px; cursor: pointer;">
+          
+        </a>
+      </div> 
+      
+      <script> 
+      var myVideo = document.getElementById("video1"); 
+      
+      function playPause() { 
+        if (myVideo.paused) 
+          myVideo.play(); 
+        else 
+          myVideo.pause(); 
+      } 
+      
+      function makeBig() { 
+          myVideo.width = 1080; 
+      } 
+      
+      function makeSmall() { 
+          myVideo.width = 320; 
+      } 
+      
+      function makeNormal() { 
+          myVideo.width = 420; 
+      } 
+      </script> 
+
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+
+</body>
+
+
+</html>
